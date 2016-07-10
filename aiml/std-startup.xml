@@ -1,0 +1,51 @@
+<aiml version="1.0">
+
+<!-- This category works with the Standard AIML Set -->
+<category>
+<pattern>LOAD AIML B</pattern>
+<template>
+
+<!-- Load standard AIML set -->
+<learn>standard/std-65percent.aiml</learn>
+<learn>standard/std-atomic.aiml</learn>
+<learn>standard/std-botmaster.aiml</learn>
+<learn>standard/std-brain.aiml</learn>
+<learn>standard/std-connect.aiml</learn>
+<learn>standard/std-dictionary.aiml</learn>
+<learn>standard/std-disconnect.aiml</learn>
+<learn>standard/std-dont.aiml</learn>
+<learn>standard/std-errors.aiml</learn>
+<learn>standard/std-gender.aiml</learn>
+<learn>standard/std-geography.aiml</learn>
+<learn>standard/std-german.aiml</learn>
+<learn>standard/std-gossip.aiml</learn>
+<learn>standard/std-hello.aiml</learn>
+<learn>standard/std-inactivity.aiml</learn>
+<learn>standard/std-inventions.aiml</learn>
+<learn>standard/std-knowledge.aiml</learn>
+<learn>standard/std-lizards.aiml</learn>
+<learn>standard/std-login.aiml</learn>
+<learn>standard/std-numbers.aiml</learn>
+<learn>standard/std-personality.aiml</learn>
+<learn>standard/std-pickup.aiml</learn>
+<learn>standard/std-politics.aiml</learn>
+<learn>standard/std-profile.aiml</learn>
+<learn>standard/std-religion.aiml</learn>
+<learn>standard/std-robot.aiml</learn>
+<learn>standard/std-sales.aiml</learn>
+<learn>standard/std-sextalk.aiml</learn>
+<learn>standard/std-sports.aiml</learn>
+<learn>standard/std-srai.aiml</learn>
+<learn>standard/std-suffixes.aiml</learn>
+<learn>standard/std-that.aiml</learn>
+<learn>standard/std-turing.aiml</learn>
+<learn>standard/std-yesno.aiml</learn>
+
+
+<!-- Load additional AIML set -->
+<learn>additional/computer.aiml</learn>
+
+</template>
+</category>
+
+</aiml>
