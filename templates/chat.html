@@ -8,6 +8,8 @@
         <style type="text/css">
             .fixed-panel {
                 min-height: 400px;
+                max-height: 400px;
+                overflow-y: scroll;
             }
             .media-list {
                 overflow: auto;
@@ -20,7 +22,7 @@
                 <h1 class="text-center">Chatbot</h1>
 
                 <div class="col-md-12">
-                    <div class="panel panel-info">
+                    <div id="chatPanel" class="panel panel-info">
                         <div class="panel-heading">
                             <strong><span class="glyphicon glyphicon-list"></span> Chat History</strong>
                         </div>
@@ -65,7 +67,9 @@
                         $('#messageText').val('');
 
                         var answer = response.answer;
+                        const chatPanel = document.getElementById("chatPanel");
                         $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div class="media-body">' + answer + '<hr/></div></div></div></li>');
+
                     },
                     error: function(error) {
                         console.log(error);
