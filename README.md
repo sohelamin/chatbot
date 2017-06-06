@@ -21,7 +21,9 @@ AI Based Chatbot
     ```
 4. Open **http://127.0.0.1:5000** in your browser.
 
-5. You're done and let's chat with your Robot.
+5. You're done and let's chat with your Robot via browser.
+
+6. We can implement this in our hosting, steps will be published soon
 
 ### Using Virtualenv
 
@@ -30,8 +32,8 @@ pip install -r requirements.txt
 ```
 
 ## Screenshot
-![chatbot](https://cloud.githubusercontent.com/assets/1708683/16739482/28ee111e-47bc-11e6-93d4-f9a8f5c9a3a2.png)
+https://youtu.be/iTjCukSdxEA
 
 ## Author
-
-[Sohel Amin](http://www.sohelamin.com)
+for demo visit
+www.freetohack.com
