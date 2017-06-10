@@ -33,9 +33,6 @@ Added New GUI compatible with all browsers, mobiles with autoscroll
 pip install -r requirements.txt
 ```
 
-## Screenshot
-https://youtu.be/iTjCukSdxEA
-
 ## Author
-for demo visit
-www.freetohack.com
+
+[Sohel Amin](http://www.sohelamin.com)
