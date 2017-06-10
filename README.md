@@ -11,10 +11,9 @@ Added New GUI compatible with all browsers, mobiles with autoscroll
 
 1. Clone and navigate to chatbot directory.
 
-2. Install **Flask** framework and **AIML** module.
+2. Install the required packages.
     ```bash
-    pip install Flask
-    pip install aiml
+    pip install -r requirements.txt
     ```
 
 3. Run the python server.
@@ -25,13 +24,11 @@ Added New GUI compatible with all browsers, mobiles with autoscroll
 
 5. You're done and let's chat with your Robot via browser.
 
-6. We can implement this in our hosting, steps will be published soon
+## Screenshot
+![chatbot](https://user-images.githubusercontent.com/1708683/27002771-68618802-4e0b-11e7-870a-3c05e3f68146.png)
 
-### Using Virtualenv
-
-```bash
-pip install -r requirements.txt
-```
+## Demo
+[Demo](http://sohelamin.com:5000/)
 
 ## Author
 
