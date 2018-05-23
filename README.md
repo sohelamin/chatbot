@@ -4,9 +4,11 @@ AI Based Chatbot
 Added New GUI compatible with all browsers, mobiles with autoscroll
 
 ### Requirements
-    Python >= 2.7
+    Python >= 2.7 ( to use aiml package, Python 2.- is required.)
     Flask >= 0.10
-
+    Aiml
+    Pip
+    
 ## Installation
 
 1. Clone and navigate to chatbot directory.
