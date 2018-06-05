@@ -302,6 +302,13 @@ An acotyledon is a plant with no distinct seed leaves, such as moss and fern.
 </category>
 
 <category>
+<pattern>DEFINE ACQUISITION</pattern>
+<template>
+If a company or business person makes an acquisition, they buy another company or part of a company. 
+</template>
+</category>
+
+<category>
 <pattern>DEFINE ACRE</pattern>
 <template>
 An acre is a measurement of land area being 4840 square yards.
@@ -3458,6 +3465,20 @@ A comet is a small body orbiting the sun on an elliptical path with a long tail 
 </category>
 
 <category>
+<pattern>DEFINE COMPETENCE</pattern>
+<template>
+Competence is the ability to do something well or effectively. 
+</template>
+</category>
+
+<category>
+<pattern>DEFINE COMPETITION</pattern>
+<template>
+Competition is a situation in which two or more people or groups are trying to get something which not everyone can have. 
+</template>
+</category>
+
+<category>
 <pattern>DEFINE COMPILER</pattern>
 <template>
 A compiler is a computer program that translates high level language code into machine language
@@ -3530,6 +3551,13 @@ The state of being conscious; awareness of one's own feelings, what is happening
 </category>
 
 <category>
+<pattern>DEFINE CONSISTENCY</pattern>
+<template>
+Consistency is the quality or condition of being consistent.
+</template>
+</category>
+
+<category>
 <pattern>DEFINE CONSTELLATION, IN ASTRONOMY,</pattern>
 <template>
 A constellation, in astronomy, is a divisional area of the sky.
@@ -3540,6 +3568,13 @@ A constellation, in astronomy, is a divisional area of the sky.
 <pattern>DEFINE CONSTITUENCY</pattern>
 <template>
 A constituency is a body of electors.
+</template>
+</category>
+
+<category>
+<pattern>DEFINE CONSTRAINT</pattern>
+<template>
+A constraint is something that limits or controls what you can do. 
 </template>
 </category>
 
@@ -3558,6 +3593,13 @@ determining its exact meaning.
 <template>
 The largest class of land masses on earth. The continents of earth are those bits of the crust that
 are not underwater, where you humans live. You're probably sitting on one now.
+</template>
+</category>
+
+<category>
+<pattern>DEFINE CONTRADICTION</pattern>
+<template>
+If you describe an aspect of a situation as a contradiction, you mean that it is completely different from other aspects, and so makes the situation confused or difficult to understand. 
 </template>
 </category>
 
@@ -4218,6 +4260,13 @@ They are generally used in pairs to generate random number pairs totalling betwe
 </category>
 
 <category>
+<pattern>DEFINE DICTATION</pattern>
+<template>
+Dictation is the speaking or reading aloud of words for someone else to write down. 
+</template>
+</category>
+
+<category>
 <pattern>DEFINE DICTIONARY</pattern>
 <template>
 A dictionary is a list of words and their meanings.
@@ -4597,6 +4646,13 @@ The eider is a British coastal duck.
 </category>
 
 <category>
+<pattern>DEFINE ELABORATE</pattern>
+<template>
+You use elaborate to describe something that is very complex because it has a lot of different parts. 
+</template>
+</category>
+
+<category>
 <pattern>DEFINE ELECTRICITY</pattern>
 <template>
 <random>
@@ -4723,6 +4779,13 @@ branches, as civil, electrical, mechanical, and chemical engineering.
 <pattern>DEFINE ENGLISH</pattern>
 <template>
 The language we are now speaking is English.
+</template>
+</category>
+
+<category>
+<pattern>DEFINE ENHANCE</pattern>
+<template>
+To enhance something means to improve its value, quality, or attractiveness.
 </template>
 </category>
 
@@ -5170,6 +5233,13 @@ animals living in water and having permanent gills for breathing, fins, and , us
 <pattern>DEFINE FISHING</pattern>
 <template>
 The catching of fish for sport or for a living.
+</template>
+</category>
+
+<category>
+<pattern>DEFINE FLASH</pattern>
+<template>
+A flash is a sudden burst of light or of something shiny or bright. 
 </template>
 </category>
 
@@ -7987,6 +8057,13 @@ more pleasant than humans because they have no opinions. Would you like to talk 
 </category>
 
 <category>
+<pattern>DEFINE PARTICULAR</pattern>
+<template>
+You use particular to emphasize that you are talking about one thing or one kind of thing rather than other similar ones. 
+</template>
+</category>
+
+<category>
 <pattern>DEFINE PATTERN</pattern>
 <template>
 A person or thing considered worthy of imitation or copying. A mmodel or plan used as a guide in
@@ -8414,6 +8491,13 @@ A depositing of rain, snow, sleet, etc.
 </category>
 
 <category>
+<pattern>DEFINE PREVALENT</pattern>
+<template>
+A condition, practice, or belief that is prevalent is common. 
+</template>
+</category>
+
+<category>
 <pattern>DEFINE PRIDE</pattern>
 <template>
 <random>
@@ -8490,6 +8574,13 @@ A programmer is a person who lists and/or arranges a series of events comprising
 <pattern>DEFINE PROKARYOTE</pattern>
 <template>
 An animal that is not a eukaryote.
+</template>
+</category>
+
+<category>
+<pattern>DEFINE PROMINENT</pattern>
+<template>
+Something that is prominent is very noticeable or is an important part of something else. 
 </template>
 </category>
 
@@ -9187,6 +9278,13 @@ You know, an astrological sign.
 </category>
 
 <category>
+<pattern>DEFINE SIGNIFICANT</pattern>
+<template>
+A significant amount or effect is large enough to be important or affect a situation to a noticeable degree. 
+</template>
+</category>
+
+<category>
 <pattern>DEFINE SILICON</pattern>
 <template>
 <random>
@@ -9415,6 +9513,20 @@ Unwanted e-mail.
 </category>
 
 <category>
+<pattern>DEFINE SPECIFIC</pattern>
+<template>
+You use specific to refer to a particular fixed area, problem, or subject. 
+</template>
+</category>
+
+<category>
+<pattern>DEFINE SPECULATE</pattern>
+<template>
+If you speculate about something, you make guesses about its nature or identity, or about what might happen. 
+</template>
+</category>
+
+<category>
 <pattern>DEFINE SPECULUM</pattern>
 <template>
 A plastic or metal instrument used to push back the walls of the vagina so the clinician can
@@ -9548,6 +9660,20 @@ Very thin rope.
 <pattern>DEFINE STUFF</pattern>
 <template>
 Things grouped together or viewed in a certain way.
+</template>
+</category>
+
+<category>
+<pattern>DEFINE SUBSEQUENCE</pattern>
+<template>
+the fact or state of being subsequent 
+</template>
+</category>
+
+<category>
+<pattern>DEFINE SUBSTANCE</pattern>
+<template>
+A substance is a solid, powder, liquid, or gas with particular properties. 
 </template>
 </category>
 
@@ -9868,6 +9994,13 @@ Toyota is the brand name of a world leading Japanese auto maker.
 <pattern>DEFINE TRAIN</pattern>
 <template>
 A railroad.
+</template>
+</category>
+
+<category>
+<pattern>DEFINE TRANSACTION</pattern>
+<template>
+A transaction is a piece of business, for example an act of buying or selling something. 
 </template>
 </category>
 
