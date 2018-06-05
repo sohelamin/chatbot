@@ -73,7 +73,7 @@
                     <div id="chatPanel" class="panel panel-info">
                         <div class="panel-heading">
                            
-							<strong><span class="glyphicon glyphicon-globe"></span> Talk with Me !!!</strong>
+							<strong><span class="glyphicon glyphicon-globe"></span> Talk with Me !!! (You: Green / Bot: White) </strong>
                         
 						</div>
                         <div class="panel-body fixed-panel">
@@ -109,7 +109,7 @@
                 e.preventDefault();
 
                 var message = $('#messageText').val();
-                $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div class="media-body">' + message + '<hr/></div></div></div></li>');
+                $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div style = "text-align:right; color : #2EFE2E" class="media-body">' + message + '<hr/></div></div></div></li>');
                 $.ajax({
                     type: "POST",
                     url: "/ask",
@@ -119,7 +119,7 @@
 
                         var answer = response.answer;
                         const chatPanel = document.getElementById("chatPanel");
-                        $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div class="media-body">' + answer + '<hr/></div></div></div></li>');
+                        $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div style = "color : white" class="media-body">' + answer + '<hr/></div></div></div></li>');
 			$(".fixed-panel").stop().animate({ scrollTop: $(".fixed-panel")[0].scrollHeight}, 1000);
 			
                     },
