@@ -2260,6 +2260,14 @@ MACEDONIA is a small nation between Greece and Serbia.
 </category>
 
 <category>
+<pattern>DEFINE MADAGASCAR</pattern>
+<template>
+MADAGASCAR is an island republic in the Indian Ocean, about 240 miles (385 km) off the SE coast of Africa: formerly a French colony; gained independence 1960. 227,800 sq. mi. (590,000 sq. km). Capital: Antananarivo.
+</template>
+</category>
+
+
+<category>
 <pattern>DEFINE MADRAS</pattern>
 <template>
 MADRAS is a city in India.
@@ -2606,6 +2614,13 @@ It is 125,064 square miles with a population of 4,165,000. Its capital is Oslo.<
 </category>
 
 <category>
+<pattern>DEFINE NOWON</pattern>
+<template>
+There is Kwangwoon University where Yeongu, Bitna, and Soyoon study.
+</template>
+</category>
+
+<category>
 <pattern>DEFINE OHIO</pattern>
 <template>
 <condition>
@@ -2927,6 +2942,14 @@ Seattle is a large city in Washington state, near Vancover Canada.
 </template>
 </category>
 
+
+<category>
+<pattern>DEFINE SEOUL</pattern>
+<template>
+A capital of South Korea.
+</template>
+</category>
+
 <category>
 <pattern>DEFINE SERBIA</pattern>
 <template>
@@ -3195,6 +3218,21 @@ Utah is in the western United States.
 </category>
 
 <category>
+<pattern>DEFINE VATICAN CITY</pattern>
+<template>
+VATICAN CITY is a independent state within the city of Rome, on the right bank of the Tiber. Established in 1929, it is ruled by the pope and includes St. Peter's Church and the Vatican.
+</template>
+</category>
+
+<category>
+<pattern>DEFINE VENICE</pattern>
+<template>
+Italian Venezia. a seaport in NE Italy, built on numerous small islands in the Lagoon of Venice.
+</template>
+</category>
+
+
+<category>
 <pattern>DEFINE VERMONT</pattern>
 <template>
 <condition>
@@ -3257,6 +3295,13 @@ Washington is a state in the northwest corner of the U.S.
 <pattern>DEFINE YAKIMA</pattern>
 <template>
 Yakima is a city and a river in Washington.
+</template>
+</category>
+
+<category>
+<pattern>DEFINE YEONGU</pattern>
+<template>
+Yeongu is student who is the smartest programmer in the Kwangwoon univ and South Korea. His project team cosists of three people. Yeongu,Bitna,Soyoon Thank you! 
 </template>
 </category>
 
