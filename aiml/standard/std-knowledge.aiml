@@ -659,6 +659,13 @@ Popular TV show featuring scantily clad bathers.
 </category>
 
 <category>
+<pattern>WHAT IS BIBIMBAP</pattern>
+<template>
+Bibimbap is served as a bowl of warm white rice topped with namul (sauteed and seasoned vegetables) and gochujang (chili pepper paste), soy sauce, or doenjang (a fermented soybean paste).
+</template>
+</category>
+
+<category>
 <pattern>WHAT IS BINARY *</pattern>
 <template>
 Numbers and symbols written with only 1 and 0.
@@ -684,6 +691,20 @@ the pressure of that gas.
 <pattern>WHAT IS BRAIN LOADING</pattern>
 <template>
 This means that my brain is being reloaded from disk.
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS BULGOGI</pattern>
+<template>
+Bulgogi is made of thin, marinated slices of beef or pork grilled on a barbecue or on a stove-top griddle.
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS BULGOGI *</pattern>
+<template>
+Bulgogi <star/> is a <star/> stuffed with bulgogi. If you want more information about bulgogi, ask me!
 </template>
 </category>
 
@@ -966,6 +987,16 @@ Greenwich Mean Time<think><set name="it"><set name="topic">GMT</set></set></thin
 <random>
 <li>H is to O as O is to V.</li>
 <li>Water.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS HANBOK</pattern>
+<template>
+<random>
+<li>Hanbok is the representative example of traditional Korean dress.</li>
+<li>Korean traditional dress characterized by vibrant colors and simple lines without pockets.</li>
 </random>
 </template>
 </category>
@@ -2532,13 +2563,6 @@ Big Daddy.
 </category>
 
 <category>
-<pattern>WHO IS AL GORE</pattern>
-<template>
-<set name="he">Gore</set> is vice-president.
-</template>
-</category>
-
-<category>
 <pattern>WHO IS ALANIS MORRISETTE</pattern>
 <template>
 <set name="she">Alanis</set> made a great album called Jagged Little Pill.
@@ -2793,6 +2817,17 @@ in jail for conscientious objection.
 <pattern>WHO IS BETTER LOOKING</pattern>
 <template>
 All humans look alike to me.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS Bitna</pattern>
+<template>
+<random>
+<li>Bitna is a DOG lover.</li>
+<li>Bitna is a student of Kwangwoon Univ.</li>
+<li>Bitna is fond of Yeongu.</li>
+</random>
 </template>
 </category>
 
@@ -3332,6 +3367,13 @@ Emily is an artist in New York.
 </category>
 
 <category>
+<pattern>WHO IS EMMANUEL MACRON</pattern>
+<template>
+He is the president of France.
+</template>
+</category>
+
+<category>
 <pattern>WHO IS ERIC PAULOS</pattern>
 <template>
 He is a graduate student at U.C. Berkeley
@@ -3733,13 +3775,6 @@ ALICE is immortal.
 <li>Jack Ruby shot Lee Harvey Oswald.</li>
 <li>man who murdered Lee Harvey Oswald, assassin of JFK?.</li>
 </random>
-</template>
-</category>
-
-<category>
-<pattern>WHO IS JACQUES CHIRAC</pattern>
-<template>
-He is the president of France.
 </template>
 </category>
 
@@ -4317,6 +4352,13 @@ one of the greatest home run hitters of all time.
 </category>
 
 <category>
+<pattern>WHO IS MIKE PENCE</pattern>
+<template>
+<set name="he">Mike</set> is vice-president.
+</template>
+</category>
+
+<category>
 <pattern>WHO IS MILES DAVIS</pattern>
 <template>
 <set name="he">Miles Davis</set> is a famous jazz musician.
@@ -4341,6 +4383,13 @@ Founder of Islam.
 <pattern>WHO IS MONICA *</pattern>
 <template>
 <set name="she"> Monica</set> is a friend of Bill.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS MOONJAEIN</pattern>
+<template>
+Moonjaein is president of South Korea.
 </template>
 </category>
 
@@ -4599,14 +4648,14 @@ Canada has a Prime Minister, not a President.
 <category>
 <pattern>WHO IS PRESIDENT OF CUBA</pattern>
 <template>
-Fidel Castro.
+Miguel Diaz-Canel.
 </template>
 </category>
 
 <category>
 <pattern>WHO IS PRESIDENT OF ITALY</pattern>
 <template>
-<set name="he">Carlo Azelio Ciampi</set> is Carlo Azelio Ciampi.
+<set name="he">Sergio Mattarella</set> is Sergio Mattarella.
 </template>
 </category>
 
@@ -4625,23 +4674,30 @@ Putin.
 </category>
 
 <category>
+<pattern>WHO IS PRESIDENT OF USA</pattern>
+<template>
+Donald Trump.
+</template>
+</category>
+
+<category>
 <pattern>WHO IS PRIME MINISTER OF BRITAIN</pattern>
 <template>
-Tony Blair.
+Theresa May.
 </template>
 </category>
 
 <category>
 <pattern>WHO IS PRIME MINISTER OF ENGLAND</pattern>
 <template>
-Tony Blair.
+Theresa May.
 </template>
 </category>
 
 <category>
 <pattern>WHO IS PRIME MINISTER OF UK</pattern>
 <template>
-Tony Blair.
+Theresa May.
 </template>
 </category>
 
@@ -4669,7 +4725,7 @@ English heartthrob.
 <category>
 <pattern>WHO IS QUEEN OF ENGLAND</pattern>
 <template>
-Queen Elizabeth Windsor.
+Queen Elizabeth Alexandra Mary.
 </template>
 </category>
 
@@ -4851,6 +4907,17 @@ all men are homosexuals. - Woody Allen, "Love and Death".</li>
 </category>
 
 <category>
+<pattern>WHO IS SOYOON</pattern>
+<template>
+<random>
+<li>SoYoon is a cute person.</li>
+<li>SoYoon is a student of KwangWoon Univ.</li>
+<li>SoYoon is a CAT lover.</li>
+</random>
+</template>
+</category>
+
+<category>
 <pattern>WHO IS SPOCK</pattern>
 <template>
 Vulcan Starfleet officer in Star Trek, played by Leonard Nimoy.
@@ -5016,7 +5083,7 @@ I think her name is Elizabeth, right?
 <category>
 <pattern>WHO IS THE VICE PRESIDENT</pattern>
 <template>
-Al Gore.
+Mike Pence.
 </template>
 </category>
 
@@ -5191,6 +5258,17 @@ Prime Minister of the U.K. during World War II.
 <pattern>WHO IS WITTGENSTEIN</pattern>
 <template>
 <set name="he">Wittgenstein</set> was a 20th century philosopher who could not make up his mind.
+</template>
+</category>
+
+<category>
+<pattern>WHO IS YEONGU</pattern>
+<template>
+<random>
+<li>Yeongu is a Jeo-Tan-Go-Ji Dieter.</li>
+<li>Yeongu is a student of Kwangwoon Univ.</li>
+<li>Yeongu is fond of Bitna.</li>
+</random>
 </template>
 </category>
 
