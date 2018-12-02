@@ -75,8 +75,9 @@
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Enter Message" name="messageText" id="messageText" autofocus/>
                                     <span class="input-group-btn">
-                                        <button class="btn btn-info" type="button" id="chatbot-form-btn">SEND <span class="glyphicon glyphicon-pencil"></span></button>
-                                        <button class="btn btn-info" type="button" id="chatbot-form-btn-clear">CLEAR <span class="glyphicon glyphicon-erase"></span></button>
+                                        <button class="btn btn-info" type="button" id="chatbot-form-btn">Send</button>
+                                        <button class="btn btn-info" type="button" id="chatbot-form-btn-clear">Clear</button>
+                                        <button class="btn btn-info" type="button" id="chatbot-form-btn-voice">Voice</button>
                                     </span>
                                 </div>
                             </form>
@@ -88,7 +89,13 @@
         <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script>
+            var exports = {};
+        </script>
+        <script src="https://unpkg.com/speech-to-text@0.7.4/lib/index.js"></script>
+        <script>
         $(function() {
+            var synth = window.speechSynthesis;
+
             $('#chatbot-form-btn').click(function(e) {
                 e.preventDefault();
                 $('#chatbot-form').submit();
@@ -97,6 +104,33 @@
                 e.preventDefault();
                 $('#chatPanel').find('.media-list').html('');
             });
+            $('#chatbot-form-btn-voice').click(function(e) {
+                e.preventDefault();
+
+                var onAnythingSaid = function (text) {
+                    console.log('Interim text: ', text);
+                };
+                var onFinalised = function (text) {
+                    console.log('Finalised text: ', text);
+                    $('#messageText').val(text);
+                };
+                var onFinishedListening = function () {
+                    // $('#chatbot-form-btn').click();
+                };
+
+                try {
+                    var listener = new SpeechToText(onAnythingSaid, onFinalised, onFinishedListening);
+                    listener.startListening();
+
+                    setTimeout(function () {
+                        listener.stopListening();
+                        $('#chatbot-form-btn').click();
+                    }, 5000);
+                } catch (error) {
+                    console.log(error);
+                }
+            });
+
             $('#chatbot-form').submit(function(e) {
                 e.preventDefault();
                 var message = $('#messageText').val();
