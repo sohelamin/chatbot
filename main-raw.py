@@ -1,21 +1,30 @@
-import aiml
-import os
+import openai
 
-kernel = aiml.Kernel()
+openai.api_key = 'YOUR_API_KEY'
 
-if os.path.isfile("bot_brain.brn"):
-    kernel.bootstrap(brainFile = "bot_brain.brn")
-else:
-    kernel.bootstrap(learnFiles = os.path.abspath("aiml/std-startup.xml"), commands = "load aiml b")
-    kernel.saveBrain("bot_brain.brn")
 
-# kernel now ready for use
-while True:
-    message = raw_input("Enter your message to the bot: ")
-    if message == "quit":
-        exit()
-    elif message == "save":
-        kernel.saveBrain("bot_brain.brn")
+def chat_with_openai(message):
+    response = openai.Completion.create(
+        engine='text-davinci-003',
+        prompt=message,
+        max_tokens=50,
+        temperature=0.7,
+        n=1,
+        stop=None,
+        timeout=10
+    )
+
+    if response.choices:
+        return response.choices[0].text.strip()
     else:
-        bot_response = kernel.respond(message)
-        print bot_response
+        return "Sorry, I couldn't generate a response."
+
+
+while True:
+    user_input = input("You: ")
+    if user_input.lower() == 'exit':
+        break
+
+    response = chat_with_openai(user_input)
+    print("AI: " + response)
+
