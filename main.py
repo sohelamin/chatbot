@@ -1,14 +1,14 @@
-from flask import Flask, render_template, request, jsonify
+from flask import *
 import aiml
 import os
 
-app = Flask(__name__)
+flask = Flask(__name__)
 
-@app.route("/")
+@flask.route("/")
 def hello():
     return render_template('chat.html')
 
-@app.route("/ask", methods=['POST'])
+@flask.route("/ask", methods=['POST'])
 def ask():
 	message = request.form['messageText'].encode('utf-8').strip()
 
